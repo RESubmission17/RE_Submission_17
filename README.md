@@ -72,6 +72,8 @@ A detailed description of the POS tags can be found at https://www.clips.uantwer
 ## Database Access
 The database can be accessed with a python script. e.g.
 
+```python
+
 import sqlite3
 db = sqlite3.connect("C:\\db_location")
 
@@ -84,3 +86,5 @@ for row in db.execute("SELECT * from POS"):
 for row in db.execute("SELECT * from verbs"):
     print(row)
 
+
+```
