@@ -26,7 +26,7 @@ Each DB table's contents are described below.
 | sentence   | Feedback sentence      | 
 |label | Manually given sentence label      | 
 
-### verb tags
+### Verb tags
 
 This table contains the present verb counts for each feedback sentence. The tables are linked via the id column
 A detailed description of the verb tags can be found at https://www.clips.uantwerpen.be/pages/mbsp-tags
@@ -44,7 +44,7 @@ A detailed description of the verb tags can be found at https://www.clips.uantwe
 | tagged_sentence |  Feedback sentence with verb tags   | 
 
 
-### Part Of Speech tags (POS)
+### Part of Speech tags (POS)
 
 This table contains the present POS counts for each feedback sentence. The tables are linked via the id column
 A detailed description of the POS tags can be found at https://www.clips.uantwerpen.be/pages/mbsp-tags
