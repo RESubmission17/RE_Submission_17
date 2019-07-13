@@ -10,7 +10,7 @@ The Artifact is the manually labelled, software product forum feedback, created 
 
 ## Database file
 
-The labelled sentences are contained in "VLC_labelled_sentences_4RE.sqlite". The database contains three tables: (1) labelled_sentences; (2) verbs; (3) POS.
+The labelled sentences are contained in "VLC_labelled_sentences_4RE.sqlite". The database contains three tables: (1) labelled_sentences; (2) verbs; (3) POS. # The three tables are linked via their id columns
 
 The "labelled_sentences" table contains the feedback sentences and the manual labels.
 Each DB table's contents are described below.
