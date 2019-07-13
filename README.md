@@ -26,19 +26,43 @@ Each DB table's contents are described below.
 | sentence   | Feedback sentence      | 
 |label | Manually given sentence label      | 
 
-### verbs
-This table contains the verb counts for each feedback sentence. The tables are linked via the id column
+### verb tags
+
+This table contains the present verb counts for each feedback sentence. The tables are linked via the id column
+A detailed description of the verb tags can be found at https://www.clips.uantwerpen.be/pages/mbsp-tags
 
 | Column Names  | Description           |
 | ------------- |:-------------:| 
 | id     | Links the three DB tables | 
-| |     | 
+| MD |  verb, modal auxillary  | 
+| VB |  verb, base form   | 
+| VBZ |  verb, 3rd person singular present   | 
+| VBP |  verb, non-3rd person singular present  | 
+| VBD |  verb, past tense   | 
+| VBN |  verb, past participle  | 
+| VBG |  verb, gerund or present participle  | 
+| tagged_sentence |  Feedback sentence with verb tags   | 
 
-### POS
 
-This table contains the POS counts for each feedback sentence. The tables are linked via the id column
+### Part Of Speech tags (POS)
+
+This table contains the present POS counts for each feedback sentence. The tables are linked via the id column
+A detailed description of the POS tags can be found at https://www.clips.uantwerpen.be/pages/mbsp-tags
 
 | Column Names  | Description           | 
 | ------------- |:-------------:| 
 | id     | Links the three DB tables | 
-| |     | 
+| CD | cardinal number  | 
+| DT | determiner   | 
+| EX | existential there | 
+| IN_ | conjunction, subordinating or preposition | 
+| JJ | adjective | 
+| JJS | adjective, superlative | 
+| NN | noun, singular or mass    | 
+| NNS | noun, plural | 
+| NNP | noun, proper singular    | 
+| PRP | pronoun, personal   | 
+| PRPS | pronoun, possessive   | 
+| RB | adverb   | 
+| TO_ | infinitival to   | 
+| tagged_sentence |  Feedback sentence with POS tags   | 
