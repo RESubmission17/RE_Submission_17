@@ -68,3 +68,19 @@ A detailed description of the POS tags can be found at https://www.clips.uantwer
 | RB | adverb   | 
 | TO_ | infinitival to   | 
 | tagged_sentence |  Feedback sentence with POS tags   | 
+
+## Database Access
+The database can be accessed with a python script. e.g.
+
+import sqlite3
+db = sqlite3.connect("C:\\db_location")
+
+for row in db.execute("SELECT * from labelled_sentences"):
+    print(row)
+
+for row in db.execute("SELECT * from POS"):
+    print(row)
+    
+for row in db.execute("SELECT * from verbs"):
+    print(row)
+
