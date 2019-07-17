@@ -2,7 +2,9 @@
 ## Contact details
 
 RE Submission ID: 17
+
 Author: James Tizard
+
 email: jtiz003@aucklanduni.ac.nz
 
 ## Overview
