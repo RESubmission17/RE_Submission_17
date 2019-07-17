@@ -5,7 +5,7 @@ RE Submission ID: 17
 
 Author: James Tizard
 
-email: jtiz003@aucklanduni.ac.nz
+Email: jtiz003@aucklanduni.ac.nz
 
 ## Overview
 This repository contains "Artifacts" from our research on software product forums. The research is described in our paper "Can A Conversation Paint A Picture? Mining Requirements In Software Forums", submitted to the Requirements Engineering conference 2019.
